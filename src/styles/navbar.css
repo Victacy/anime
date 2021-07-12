@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: transparent 2px rgb(231, 231, 231);
+    background-color: rgb(139, 0, 139);
+    box-shadow: 6px ghostwhite;
+    height: 50px;
+    
+}
+.links{
+    width: 100%;
+    background: purple;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: whitesmoke;
+    margin-left: 10px;
+    
+}
+a:hover{
+    background: blue;
+    border-color: white;
+}
