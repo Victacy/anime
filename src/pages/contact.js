@@ -4,11 +4,19 @@ import { Form,Button,Container } from 'react-bootstrap'
 
 
 export default function Contact() {
-    const [sub,subbed] = useState("")
+    const [name,setName] = useState("")
+    const [email,setEmail] = useState("")
+    const [msg,setMsg] = useState("")
+    const [sub,setSub] = useState("")
+
+    const 
 
     const handleSub = (e) =>{
         e.preventDefault();
-        alert('hey')
+        if (name && email && msg)
+            alert('Thank you for patronage')
+        else
+            alert('Necessary fields are empty')
     }
 
     return (
