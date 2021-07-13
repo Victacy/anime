@@ -1,4 +1,4 @@
-/* .layout{
+.layout{
     margin: 0 auto;
 }
 footer p{
@@ -6,4 +6,12 @@ footer p{
     color: rgb(255, 255, 255);
     align-content: flex-end;
     margin: 40px auto;
-} */
+    padding-top: 10px;
+    padding-bottom: 0px;
+    
+
+}
+body{
+    background-image: radial-gradient(#cf0596 50%,#9104a7 100%);
+}
+

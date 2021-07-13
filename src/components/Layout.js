@@ -1,17 +1,18 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navigation from './Navigation'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/layout.css'
 import '../styles/global.css'
 
 export default function Layout({children}) {
     return (
         <div className ="app">
-            <Navbar/>
+            < Navigation />
                 <div >
                     {children}
                 </div>
                 <footer>
-                    <p>ⓒ 2021 Victacy</p>
+                    <p className="fixed-bottom">ⓒ 2021 Victacy</p>
                 </footer>
             
         </div>
