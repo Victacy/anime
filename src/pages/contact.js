@@ -7,7 +7,8 @@ export default function Contact() {
     const [sub,subbed] = useState("")
 
     const handleSub = (e) =>{
-        e.preventDefault
+        e.preventDefault();
+        alert('hey')
     }
 
     return (
@@ -28,7 +29,7 @@ export default function Contact() {
                     {/* <Form.Text>Feel free to address any issues concerning your designs and design career</Form.Text> */}
                 </Form.Group>
                 <p  className="row justify-content-center">
-                <Button type="submit">Subscribe</Button>
+                <Button type="submit" onClick={handleSub}>Subscribe</Button>
                 </p>
                 {/* <input type ="clear" /> */}
             </Form>
