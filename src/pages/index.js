@@ -13,8 +13,8 @@ export default function Index() {
             <StaticImage src="../../static/images/home.png" width={500} placeholder='tracedSVG'
               alt=" Homepage design " style={{ marginBottom: `1.45rem` }} />
           </Col>
-          <Col md={6} >
-              <h1 style={{textAlign:`center`,color:`white`}}>Platinum Portfolio page</h1>
+          <Col md={6} style={{textAlign:`center`,color:`white`,alignItems:`center`}}>
+              <h1 >Platinum Portfolio page</h1>
               <p>Designs aim to bring out the best ideas of the viewer to life.
                 Join me as i display unique and beautiful designs that will give the best experience yet.</p>
         <Link>

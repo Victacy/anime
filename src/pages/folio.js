@@ -6,9 +6,9 @@ import { Container,Card,Row,Col } from 'react-bootstrap'
 export default function Portfolio() {
     return (
         <Layout>
-        <div style={{color:`black`}}>
-            <h1>Portfolio</h1>
-            <Container>
+        <div>
+            <h1 style={{textAlign:`center`,color:`white`,alignItems:`center`}}>Portfolio</h1>
+            <Container style={{color:`black`}}>
                <Row>
                    <Col md={6}>
                    <Card className="mb-3">
